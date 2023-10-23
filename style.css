@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {text-align: center;}
+
+
+div{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+
+.botao
+{   
+    //nesse comando fiz o efeito de transição inicial do botão//
+    color: #000000;
+    background: blanchedalmond;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 5px;
+    padding: 20px 20px;
+    transition: 2s;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.botao:hover{
+    //nesse comando fiz o efeito final de transição//
+    background: #000000;
+    color: #fff;
+    letter-spacing: 2px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 100%, 0% 100%);
+}
+body{
+    background-color: #ffffff;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    
+
+}
+header {
+    color: black;
+    background-color: cadetblue;
+    border: 10px solid #ff0000
+    padding: 15px;
+    
+}
+
+nav {
+    background-color: cadetblue;
+    width: 25%;
+    float: left;
+    padding: 5px;
+    border: 15px solid bisque   
+}
+
+section { 
+    background-color: cadetblue;
+width: 75%;
+float: right;
+padding: 15px;
+border: 10px solid bisque;
+}
